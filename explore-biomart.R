@@ -109,7 +109,8 @@ split(myGenes_data, f = "ensembl_gene_id")
 # so short story long, if you have your ensembl transcript id, it's way easier.
 #
 # but while we're at it, if you use transcript data indiscriminately while doing research, I hate you.
-# It's no wonder we can't reproduce most results. Fucking don't be lazy and read about the data you're using. 
+# It's no wonder we can't reproduce most results. Fucking don't be lazy and read about the data you're using.
+# Also, document properly which data you decided to use and why.
 ########################################################################
 # e.g. go beyond human, anthropocentrism sucks! :) 
 listMarts(host = "parasite.wormbase.org")
